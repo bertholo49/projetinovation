@@ -1,0 +1,46 @@
+@media screen and (max-width: 1100px){
+    header{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    section{
+        padding: 40px;
+    }
+
+    #service{
+        flex-direction: column;
+    }
+
+    nav{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .navbar-brand{
+        flex-direction: column;
+    }
+
+    #service .image{
+        width: 100%;
+        height: 500px;
+    }
+
+    .catalogue{
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .produit{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .menu li{
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
